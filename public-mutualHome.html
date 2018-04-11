@@ -1,0 +1,1557 @@
+1|#||4|72170|updatePanel|dnn_ctr911_FPFundPrice_UpdatePanel1|
+
+<a id="dnn_ctr911_FPFundPrice_lbtnAjaxPostBack" href="javascript:__doPostBack(&#39;dnn$ctr911$FPFundPrice$lbtnAjaxPostBack&#39;,&#39;&#39;)"></a>
+
+<table class="unselectable" onselectstart="return false;" ondragstart="return false;">
+	<tr>
+		<td width="*">
+			<br>
+			<table border="0" cellspacing="0" cellpadding="0" width="600" align="left">
+				<tr width="600px" valign="top">
+					<td width="100" class="fund" style="vertical-align: middle;">PB/Public Series</td>
+					<td width="50" align="left">
+						<select name="dnn$ctr911$FPFundPrice$ddlSeries" id="dnn_ctr911_FPFundPrice_ddlSeries" class="fund" style="width:150px;">
+							<option selected="selected" value="All">All</option>
+							<option value="Y">PB</option>
+							<option value="N">Public</option>
+
+						</select>
+					</td>
+					<td width="10">&nbsp;</td>
+					<td width="70" class="fund" style="vertical-align: middle;">Fund Group</td>
+					<td width="125" align="left">
+						<select name="dnn$ctr911$FPFundPrice$ddlFund" id="dnn_ctr911_FPFundPrice_ddlFund" class="fund" style="width:150px;">
+							<option selected="selected" value="All">All</option>
+							<option value="Local">Local</option>
+							<option value="EPF Investment">EPF Investment</option>
+							<option value="Foreign">Foreign</option>
+
+						</select>
+					</td>
+					<td width="*">&nbsp;</td>
+				</tr>
+			</table>
+			<div style="display: block; height: 40px;"></div>
+
+			<div id="dnn_ctr911_FPFundPrice_UpdateProgress1" style="display:none;">
+
+				<div style="text-align:center;">
+					<img alt="" border="0" src="/DesktopModules/PMB/Images/pleasewait.gif" />
+				</div>
+
+			</div>
+
+			<table class="fundtable" cellspacing="0" rules="all" border="1" id="dnn_ctr911_FPFundPrice_dgFund" style="border-collapse:collapse;">
+				<tr align="center" style="color:#494D52;background-color:#CCCCCC;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;height:30px;">
+					<td>Date</td>
+					<td>Fund</td>
+					<td>Fund Abbreviation</td>
+					<td>NAV</td>
+					<td>Chg</td>
+					<td>Chg %</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ADVANTAGE GROWTH EQUITY FUND </td>
+					<td style="width:80px;">PAVGEF</td>
+					<td align="right" style="width:40px;">0.2851</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0036</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.28%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC AGGRESSIVE GROWTH FUND </td>
+					<td style="width:80px;">PAGF</td>
+					<td align="right" style="width:40px;">0.6544</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0056</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.86%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ASEAN GROWTH FUND </td>
+					<td style="width:80px;">PASGF</td>
+					<td align="right" style="width:40px;">0.2497</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0018</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.73%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ASIA ITTIKAL FUND </td>
+					<td style="width:80px;">PAIF</td>
+					<td align="right" style="width:40px;">0.3624</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0027</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.75%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC AUSTRALIA EQUITY FUND </td>
+					<td style="width:80px;">PAUEF</td>
+					<td align="right" style="width:40px;">0.2584</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0040</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.57%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC BALANCED FUND </td>
+					<td style="width:80px;">PBF</td>
+					<td align="right" style="width:40px;">0.6956</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0026</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.38%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC BOND FUND </td>
+					<td style="width:80px;">PBOND</td>
+					<td align="right" style="width:40px;">0.9537</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC CHINA ACCESS EQUITY FUND </td>
+					<td style="width:80px;">PCASEF</td>
+					<td align="right" style="width:40px;">1.2381</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0295</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">2.44%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC CHINA ITTIKAL FUND </td>
+					<td style="width:80px;">PCIF</td>
+					<td align="right" style="width:40px;">0.3059</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0039</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.29%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC CHINA SELECT FUND </td>
+					<td style="width:80px;">PCSF</td>
+					<td align="right" style="width:40px;">0.3370</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0049</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.48%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC CHINA TITANS FUND </td>
+					<td style="width:80px;">PCTF</td>
+					<td align="right" style="width:40px;">0.3455</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0050</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.47%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC DIVIDEND SELECT FUND </td>
+					<td style="width:80px;">PDSF</td>
+					<td align="right" style="width:40px;">0.2867</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0022</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.77%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC e-CASH DEPOSIT FUND *****</td>
+					<td style="width:80px;">PeCDF</td>
+					<td align="right" style="width:40px;">1.0011</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC e-FLEXI ALLOCATION FUND </td>
+					<td style="width:80px;">PeFAF</td>
+					<td align="right" style="width:40px;">0.2612</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0022</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.85%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC e-ISLAMIC CASH DEPOSIT FUND ******</td>
+					<td style="width:80px;">PeICDF</td>
+					<td align="right" style="width:40px;">1.0011</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC e-ISLAMIC FLEXI ALLOCATION FUND </td>
+					<td style="width:80px;">PeIFAF</td>
+					<td align="right" style="width:40px;">0.2500</td>
+					<td align="right" style="width:60px;">0.0000</td>
+					<td align="right" style="width:45px;">0.00%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC EHSAN MIXED ASSET CONSERVATIVE FUND </td>
+					<td style="width:80px;">PESMACF</td>
+					<td align="right" style="width:40px;">0.2770</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0006</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.22%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC EHSAN MIXED ASSET GROWTH FUND </td>
+					<td style="width:80px;">PESMAGF</td>
+					<td align="right" style="width:40px;">0.3216</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0041</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.29%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC EMERGING OPPORTUNITIES FUND </td>
+					<td style="width:80px;">PEMOF</td>
+					<td align="right" style="width:40px;">0.2768</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0056</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">2.06%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ENHANCED BOND FUND </td>
+					<td style="width:80px;">PEBF</td>
+					<td align="right" style="width:40px;">1.0247</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0003</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.03%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ENTERPRISES BOND FUND </td>
+					<td style="width:80px;">PENTBF</td>
+					<td align="right" style="width:40px;">1.0405</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC EQUITY FUND </td>
+					<td style="width:80px;">PEF</td>
+					<td align="right" style="width:40px;">0.2726</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0013</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.48%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC FAR-EAST ALPHA-30 FUND </td>
+					<td style="width:80px;">PFA30F</td>
+					<td align="right" style="width:40px;">0.4417</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0056</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.28%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC FAR-EAST BALANCED FUND </td>
+					<td style="width:80px;">PFEBF</td>
+					<td align="right" style="width:40px;">0.2982</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0022</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.74%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC FAR-EAST CONSUMER THEMES FUND </td>
+					<td style="width:80px;">PFECTF</td>
+					<td align="right" style="width:40px;">0.3097</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0042</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.37%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC FAR-EAST DIVIDEND FUND </td>
+					<td style="width:80px;">PFEDF</td>
+					<td align="right" style="width:40px;">0.3069</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0023</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.76%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC FAR-EAST PROPERTY & RESORTS FUND </td>
+					<td style="width:80px;">PFEPRF</td>
+					<td align="right" style="width:40px;">0.2880</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0023</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.81%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC FAR-EAST SELECT FUND </td>
+					<td style="width:80px;">PFES</td>
+					<td align="right" style="width:40px;">0.3387</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0039</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.16%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC FAR-EAST TELCO & INFRASTRUCTURE FUND </td>
+					<td style="width:80px;">PFETIF</td>
+					<td align="right" style="width:40px;">0.3453</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0020</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.58%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC FOCUS SELECT FUND </td>
+					<td style="width:80px;">PFSF</td>
+					<td align="right" style="width:40px;">0.2881</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0050</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.77%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC GLOBAL SELECT FUND </td>
+					<td style="width:80px;">PGSF</td>
+					<td align="right" style="width:40px;">0.3235</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0040</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.25%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC GREATER CHINA FUND </td>
+					<td style="width:80px;">PGCF</td>
+					<td align="right" style="width:40px;">0.2425</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0031</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.29%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC GROWTH BALANCED FUND </td>
+					<td style="width:80px;">PGRBF</td>
+					<td align="right" style="width:40px;">0.2737</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0008</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.29%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC GROWTH FUND </td>
+					<td style="width:80px;">PGF</td>
+					<td align="right" style="width:40px;">0.5079</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0038</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.75%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC INDEX FUND </td>
+					<td style="width:80px;">PIX</td>
+					<td align="right" style="width:40px;">0.6899</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0051</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.74%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC INDIA-GLOBAL EQUITY FUND </td>
+					<td style="width:80px;">PINGEF</td>
+					<td align="right" style="width:40px;">0.2488</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0019</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.77%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC INDONESIA SELECT FUND </td>
+					<td style="width:80px;">PINDOSF</td>
+					<td align="right" style="width:40px;">0.2739</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0047</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.75%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC INDUSTRY GROWTH FUND ****</td>
+					<td style="width:80px;">PINDGF</td>
+					<td align="right" style="width:40px;">0.5341</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0033</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.62%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC INSTITUTIONAL BOND FUND </td>
+					<td style="width:80px;">PINBOND</td>
+					<td align="right" style="width:40px;">1.0024</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC ADVANTAGE GROWTH EQUITY FUND </td>
+					<td style="width:80px;">PIAVGEF</td>
+					<td align="right" style="width:40px;">0.2947</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0045</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.55%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC ALPHA-40 GROWTH FUND </td>
+					<td style="width:80px;">PIA40GF</td>
+					<td align="right" style="width:40px;">0.2993</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0040</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.35%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC ASIA DIVIDEND FUND </td>
+					<td style="width:80px;">PIADF</td>
+					<td align="right" style="width:40px;">0.3489</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0024</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.69%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC ASIA LEADERS EQUITY FUND </td>
+					<td style="width:80px;">PIALEF</td>
+					<td align="right" style="width:40px;">0.3878</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0036</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.94%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC ASIA TACTICAL ALLOCATION FUND **</td>
+					<td style="width:80px;">PIATAF</td>
+					<td align="right" style="width:40px;">0.3695</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0033</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.90%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC BOND FUND </td>
+					<td style="width:80px;">PIBOND</td>
+					<td align="right" style="width:40px;">0.9767</td>
+					<td align="right" style="width:60px;">
+						<font color='#ff0000'>-0.0003</Font>
+						<img src='/DesktopModules/PMB/Images/down.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">-0.03%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC DIVIDEND FUND </td>
+					<td style="width:80px;">PIDF</td>
+					<td align="right" style="width:40px;">0.3819</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0046</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.22%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC EMERGING OPPORTUNITIES FUND </td>
+					<td style="width:80px;">PIEMOF</td>
+					<td align="right" style="width:40px;">0.2874</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0034</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.20%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC ENHANCED BOND FUND </td>
+					<td style="width:80px;">PIEBF</td>
+					<td align="right" style="width:40px;">1.0741</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0033</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.31%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC ENTERPRISES EQUITY FUND </td>
+					<td style="width:80px;">PIENTEF</td>
+					<td align="right" style="width:40px;">0.2736</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0034</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.26%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC EQUITY FUND </td>
+					<td style="width:80px;">PIEF</td>
+					<td align="right" style="width:40px;">0.3667</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0046</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.27%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC GLOBAL EQUITY FUND </td>
+					<td style="width:80px;">PISGEF</td>
+					<td align="right" style="width:40px;">0.2366</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0035</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.50%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC GROWTH & INCOME FUND </td>
+					<td style="width:80px;">PISGIF</td>
+					<td align="right" style="width:40px;">0.2547</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0034</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.35%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC GROWTH BALANCED FUND </td>
+					<td style="width:80px;">PIGRBF</td>
+					<td align="right" style="width:40px;">0.2826</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0026</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.93%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC INCOME FUND </td>
+					<td style="width:80px;">PIINCOME</td>
+					<td align="right" style="width:40px;">1.0631</td>
+					<td align="right" style="width:60px;">
+						<font color='#ff0000'>-0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/down.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">-0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC INFRASTRUCTURE BOND FUND </td>
+					<td style="width:80px;">PIINFBF</td>
+					<td align="right" style="width:40px;">1.0507</td>
+					<td align="right" style="width:60px;">0.0000</td>
+					<td align="right" style="width:45px;">0.00%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC MIXED ASSET FUND *</td>
+					<td style="width:80px;">PIMXAF</td>
+					<td align="right" style="width:40px;">0.2539</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0025</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.99%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC MONEY MARKET FUND </td>
+					<td style="width:80px;">PIMMF</td>
+					<td align="right" style="width:40px;">1.0365</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC OPPORTUNITIES FUND </td>
+					<td style="width:80px;">PIOF</td>
+					<td align="right" style="width:40px;">0.4170</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0119</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">2.94%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC OPTIMAL EQUITY FUND </td>
+					<td style="width:80px;">PIOEF</td>
+					<td align="right" style="width:40px;">0.2933</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0043</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.49%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC OPTIMAL GROWTH FUND </td>
+					<td style="width:80px;">PIOGF</td>
+					<td align="right" style="width:40px;">0.2881</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0034</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.19%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC SAVINGS FUND </td>
+					<td style="width:80px;">PISVF</td>
+					<td align="right" style="width:40px;">0.3143</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0046</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.49%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC SECTOR SELECT FUND </td>
+					<td style="width:80px;">PISSF</td>
+					<td align="right" style="width:40px;">0.2781</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0034</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.24%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC SELECT BOND FUND </td>
+					<td style="width:80px;">PISBF</td>
+					<td align="right" style="width:40px;">1.0491</td>
+					<td align="right" style="width:60px;">
+						<font color='#ff0000'>-0.0004</Font>
+						<img src='/DesktopModules/PMB/Images/down.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">-0.04%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC SELECT ENTERPRISES FUND </td>
+					<td style="width:80px;">PISEF</td>
+					<td align="right" style="width:40px;">0.4090</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0056</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.39%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC SELECT TREASURES FUND </td>
+					<td style="width:80px;">PISTF</td>
+					<td align="right" style="width:40px;">0.3211</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0083</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">2.65%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC STRATEGIC BOND FUND </td>
+					<td style="width:80px;">PISTBF</td>
+					<td align="right" style="width:40px;">1.0437</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC TREASURES GROWTH FUND </td>
+					<td style="width:80px;">PITGF</td>
+					<td align="right" style="width:40px;">0.2937</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0040</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.38%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ISLAMIC WHOLESALE INCOME FUND </td>
+					<td style="width:80px;">PIWSIF</td>
+					<td align="right" style="width:40px;">1.0015</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ITTIKAL FUND </td>
+					<td style="width:80px;">PITTIKAL</td>
+					<td align="right" style="width:40px;">0.8808</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0104</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.19%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC ITTIKAL SEQUEL FUND </td>
+					<td style="width:80px;">PITSEQ</td>
+					<td align="right" style="width:40px;">0.3155</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0042</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.35%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC MONEY MARKET FUND </td>
+					<td style="width:80px;">PMMF</td>
+					<td align="right" style="width:40px;">1.0023</td>
+					<td align="right" style="width:60px;">0.0000</td>
+					<td align="right" style="width:45px;">0.00%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC NAVIGATOR GROWTH FUND </td>
+					<td style="width:80px;">PNVGF</td>
+					<td align="right" style="width:40px;">0.2661</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0031</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.18%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC OPTIMAL EQUITY FUND </td>
+					<td style="width:80px;">POEF</td>
+					<td align="right" style="width:40px;">0.2929</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0046</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.60%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC OPTIMAL GROWTH FUND </td>
+					<td style="width:80px;">POGF</td>
+					<td align="right" style="width:40px;">0.3285</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0031</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.95%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC REGIONAL SECTOR FUND </td>
+					<td style="width:80px;">PRSEC</td>
+					<td align="right" style="width:40px;">0.2748</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0028</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.03%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC REGULAR SAVINGS FUND </td>
+					<td style="width:80px;">PRSF</td>
+					<td align="right" style="width:40px;">0.6445</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0054</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.84%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC REGULAR SAVINGS SEQUEL FUND </td>
+					<td style="width:80px;">PRSSQF</td>
+					<td align="right" style="width:40px;">0.2718</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0021</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.78%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC SAVINGS FUND </td>
+					<td style="width:80px;">PSF</td>
+					<td align="right" style="width:40px;">0.5554</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0037</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.67%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC SECTOR SELECT FUND </td>
+					<td style="width:80px;">PSSF</td>
+					<td align="right" style="width:40px;">0.2974</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0004</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.13%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC SELECT ALPHA-30 FUND </td>
+					<td style="width:80px;">PSA30F</td>
+					<td align="right" style="width:40px;">0.3084</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0028</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.92%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC SELECT BOND FUND </td>
+					<td style="width:80px;">PSBF</td>
+					<td align="right" style="width:40px;">1.0393</td>
+					<td align="right" style="width:60px;">0.0000</td>
+					<td align="right" style="width:45px;">0.00%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC SELECT MIXED ASSET CONSERVATIVE FUND </td>
+					<td style="width:80px;">PSMACF</td>
+					<td align="right" style="width:40px;">0.2880</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0009</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.31%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC SELECT MIXED ASSET GROWTH FUND </td>
+					<td style="width:80px;">PSMAGF</td>
+					<td align="right" style="width:40px;">0.2777</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0023</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.84%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC SELECT TREASURES EQUITY FUND </td>
+					<td style="width:80px;">PSTEF</td>
+					<td align="right" style="width:40px;">0.2866</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0016</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.56%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC SINGAPORE EQUITY FUND </td>
+					<td style="width:80px;">PSGEF</td>
+					<td align="right" style="width:40px;">0.2995</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0017</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.57%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC SMALLCAP FUND </td>
+					<td style="width:80px;">PSMALLCAP</td>
+					<td align="right" style="width:40px;">0.7972</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0076</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.96%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC SOUTH-EAST ASIA SELECT FUND </td>
+					<td style="width:80px;">PSEASF</td>
+					<td align="right" style="width:40px;">0.3006</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0021</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.70%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC STRATEGIC BALANCED FUND </td>
+					<td style="width:80px;">PSTBLF</td>
+					<td align="right" style="width:40px;">0.2777</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0025</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.91%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC STRATEGIC BOND FUND </td>
+					<td style="width:80px;">PSTBF</td>
+					<td align="right" style="width:40px;">1.0559</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC STRATEGIC GROWTH FUND </td>
+					<td style="width:80px;">PSTGF</td>
+					<td align="right" style="width:40px;">0.3125</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0042</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.36%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC STRATEGIC SMALLCAP FUND </td>
+					<td style="width:80px;">PSSCF</td>
+					<td align="right" style="width:40px;">0.3054</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0038</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.26%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC SUKUK FUND </td>
+					<td style="width:80px;">PSKF</td>
+					<td align="right" style="width:40px;">1.0586</td>
+					<td align="right" style="width:60px;">
+						<font color='#ff0000'>-0.0005</Font>
+						<img src='/DesktopModules/PMB/Images/down.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">-0.05%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC TACTICAL ALLOCATION FUND ***</td>
+					<td style="width:80px;">PTAF</td>
+					<td align="right" style="width:40px;">0.3746</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0039</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.05%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC WHOLESALE INCOME FUND </td>
+					<td style="width:80px;">PWSIF</td>
+					<td align="right" style="width:40px;">1.0025</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0002</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.02%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC WHOLESALE VIETNAM EQUITY FUND </td>
+					<td style="width:80px;">PWVEF</td>
+					<td align="right" style="width:40px;">0.9969</td>
+					<td align="right" style="width:60px;">
+						<font color='#ff0000'>-0.0028</Font>
+						<img src='/DesktopModules/PMB/Images/down.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">-0.28%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PUBLIC WORLDWIDE EQUITY FUND *******</td>
+					<td style="width:80px;">PWEF</td>
+					<td align="right" style="width:40px;">0.2336</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0027</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.17%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB AIMAN SUKUK FUND </td>
+					<td style="width:80px;">PBASF</td>
+					<td align="right" style="width:40px;">1.0441</td>
+					<td align="right" style="width:60px;">
+						<font color='#ff0000'>-0.0006</Font>
+						<img src='/DesktopModules/PMB/Images/down.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">-0.06%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ASEAN DIVIDEND FUND </td>
+					<td style="width:80px;">PBADF</td>
+					<td align="right" style="width:40px;">0.3189</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0017</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.54%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ASEAN DIVIDEND SEQUEL FUND </td>
+					<td style="width:80px;">PBADSQF</td>
+					<td align="right" style="width:40px;">0.2694</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0017</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.64%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ASIA EMERGING GROWTH FUND </td>
+					<td style="width:80px;">PBAEGF</td>
+					<td align="right" style="width:40px;">0.3138</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0022</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.71%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ASIA EQUITY FUND </td>
+					<td style="width:80px;">PBAEF</td>
+					<td align="right" style="width:40px;">0.3141</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0032</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.03%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ASIA PACIFIC DIVIDEND FUND </td>
+					<td style="width:80px;">PBAPDF</td>
+					<td align="right" style="width:40px;">0.2432</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0013</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.54%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ASIA PACIFIC ENTERPRISES FUND </td>
+					<td style="width:80px;">PBAPENTF</td>
+					<td align="right" style="width:40px;">0.3443</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0040</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.18%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ASIA REAL ESTATE INCOME FUND </td>
+					<td style="width:80px;">PBAREIF</td>
+					<td align="right" style="width:40px;">0.3193</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0023</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.73%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB AUSTRALIA DYNAMIC BALANCED FUND </td>
+					<td style="width:80px;">PBADBF</td>
+					<td align="right" style="width:40px;">0.2698</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0025</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.94%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB BALANCED FUND </td>
+					<td style="width:80px;">PBBF</td>
+					<td align="right" style="width:40px;">0.8231</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0037</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.45%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB BALANCED SEQUEL FUND </td>
+					<td style="width:80px;">PBBSQF</td>
+					<td align="right" style="width:40px;">0.2748</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0007</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.26%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB BOND FUND </td>
+					<td style="width:80px;">PBBOND</td>
+					<td align="right" style="width:40px;">1.0599</td>
+					<td align="right" style="width:60px;">0.0000</td>
+					<td align="right" style="width:45px;">0.00%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB CASH MANAGEMENT FUND </td>
+					<td style="width:80px;">PBCMF</td>
+					<td align="right" style="width:40px;">1.0268</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB CASH PLUS FUND </td>
+					<td style="width:80px;">PBCPF</td>
+					<td align="right" style="width:40px;">1.0014</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB CHINA ASEAN EQUITY FUND </td>
+					<td style="width:80px;">PBCAEF</td>
+					<td align="right" style="width:40px;">0.4229</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0064</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.54%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB CHINA AUSTRALIA EQUITY FUND </td>
+					<td style="width:80px;">PBCAUEF</td>
+					<td align="right" style="width:40px;">0.2791</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0049</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.79%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB CHINA PACIFIC EQUITY FUND </td>
+					<td style="width:80px;">PBCPEF</td>
+					<td align="right" style="width:40px;">0.3335</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0049</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.49%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB DIVIDEND BUILDER EQUITY FUND </td>
+					<td style="width:80px;">PBDBEF</td>
+					<td align="right" style="width:40px;">0.2862</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0017</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.60%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB DYNAMIC ALLOCATION FUND </td>
+					<td style="width:80px;">PBDYNAF</td>
+					<td align="right" style="width:40px;">1.3565</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0147</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.10%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB EURO PACIFIC EQUITY FUND </td>
+					<td style="width:80px;">PBEPEF</td>
+					<td align="right" style="width:40px;">0.2872</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0029</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.02%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB FIXED INCOME FUND </td>
+					<td style="width:80px;">PBFI</td>
+					<td align="right" style="width:40px;">1.0700</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB GLOBAL EQUITY FUND </td>
+					<td style="width:80px;">PBGEF</td>
+					<td align="right" style="width:40px;">0.2961</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0041</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.40%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB GROWTH FUND </td>
+					<td style="width:80px;">PBGF</td>
+					<td align="right" style="width:40px;">0.8381</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0052</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.62%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB GROWTH SEQUEL FUND </td>
+					<td style="width:80px;">PBGSQF</td>
+					<td align="right" style="width:40px;">0.2819</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0028</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.00%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB INDONESIA BALANCED FUND </td>
+					<td style="width:80px;">PBINDOBF</td>
+					<td align="right" style="width:40px;">0.2542</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0027</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.07%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB INFRASTRUCTURE BOND FUND </td>
+					<td style="width:80px;">PBINFBF</td>
+					<td align="right" style="width:40px;">1.0917</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ISLAMIC ASIA EQUITY FUND </td>
+					<td style="width:80px;">PBIAEF</td>
+					<td align="right" style="width:40px;">0.3116</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0025</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.81%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ISLAMIC ASIA STRATEGIC SECTOR FUND </td>
+					<td style="width:80px;">PBIASSF</td>
+					<td align="right" style="width:40px;">0.2959</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0020</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.68%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ISLAMIC BOND FUND </td>
+					<td style="width:80px;">PBIBF</td>
+					<td align="right" style="width:40px;">1.1550</td>
+					<td align="right" style="width:60px;">
+						<font color='#ff0000'>-0.0006</Font>
+						<img src='/DesktopModules/PMB/Images/down.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">-0.05%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ISLAMIC CASH MANAGEMENT FUND </td>
+					<td style="width:80px;">PBICMF</td>
+					<td align="right" style="width:40px;">1.0237</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.01%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ISLAMIC DYNAMIC ALLOCATION FUND </td>
+					<td style="width:80px;">PBIDYNAF</td>
+					<td align="right" style="width:40px;">1.0076</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0071</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.71%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ISLAMIC EQUITY FUND </td>
+					<td style="width:80px;">PBIEF</td>
+					<td align="right" style="width:40px;">0.2688</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0029</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.09%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB ISLAMIC SMALLCAP FUND </td>
+					<td style="width:80px;">PBISCF</td>
+					<td align="right" style="width:40px;">0.2222</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0076</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">3.54%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB MIXED ASSET CONSERVATIVE FUND </td>
+					<td style="width:80px;">PBMAC</td>
+					<td align="right" style="width:40px;">0.2629</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0001</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.04%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB MIXED ASSET GROWTH FUND </td>
+					<td style="width:80px;">PBMAGRF</td>
+					<td align="right" style="width:40px;">0.2862</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0030</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.06%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB SINGAPORE ADVANTAGE-30 EQUITY FUND </td>
+					<td style="width:80px;">PBSGA30EF</td>
+					<td align="right" style="width:40px;">0.3007</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0013</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">0.43%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:White;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB SMALLCAP GROWTH FUND </td>
+					<td style="width:80px;">PBSCGF</td>
+					<td align="right" style="width:40px;">0.2487</td>
+					<td align="right" style="width:60px;">
+						<font color='#009933'>0.0032</Font>
+						<img src='/DesktopModules/PMB/Images/up.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">1.30%</td>
+				</tr>
+				<tr valign="top" style="color:#494D52;background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif;font-size:12px;height:30px;">
+					<td style="width:60px;">10/4/2018</td>
+					<td style="width:245px;">PB SUKUK FUND </td>
+					<td style="width:80px;">PBSKF</td>
+					<td align="right" style="width:40px;">1.0658</td>
+					<td align="right" style="width:60px;">
+						<font color='#ff0000'>-0.0003</Font>
+						<img src='/DesktopModules/PMB/Images/down.gif' width='11' height='13'>
+					</td>
+					<td align="right" style="width:45px;">-0.03%</td>
+				</tr>
+			</table>
+			<br>
+
+			<br>
+			<table id="dnn_ctr911_FPFundPrice_tblAccretionValue" border="0" cellspacing="0" cellpadding="0" width="575" Class="fund">
+				<tr>
+					<td></td>
+				</tr>
+			</table>
+
+			<table id="dnn_ctr911_FPFundPrice_tblFundAnnouncement" border="0" cellspacing="0" cellpadding="0" width="575" Class="fund">
+				<tr>
+					<td>* Public Islamic Mixed Asset Fund was formerly known as Public Islamic Balanced Fund
+						<br>** Public Islamic Asia Tactical Allocation Fund was formerly known as Public Islamic Asia Balanced Fund
+						<br>*** Public Tactical Allocation Fund was formerly known as Public Global Balanced Fund
+						<br>**** Public Industry Growth Fund was formerly known as Public Industry Fund
+						<br>***** Public e-Cash Deposit Fund was formerly known as Public Cash Deposit Fund
+						<br>****** Public e-Islamic Cash Deposit Fund was formerly known as Public Islamic Cash Deposit Fund
+						<br>******* Public Worldwide Equity Fund was formerly known as Public Natural Resources Equity Fund
+						<br>
+					</td>
+				</tr>
+			</table>
+
+
+		</td>
+	</tr>
+</table>
+
+|72|hiddenField|__VIEWSTATE|mKsS0mgHWgQU1yOW6x1YrF9uPMqP3IEm/Ge/7XvvS4QKD+Wo2zJzTP/qNUBFHfq0PkN+Hg==|8|hiddenField|__VIEWSTATEGENERATOR|CA0B0334|0|hiddenField|__VIEWSTATEENCRYPTED||328|hiddenField|__EVENTVALIDATION|29mxFbQYkgmk4mNfH8AvGhcnUdhXmjpIVGnac8anOXztZsAkUWXqcIbZ9EoXaPNpUzv9TKCWrTEtUCLBdrlNr0NitijMXAihPVkXNpCpskaZcEWyLPD4iDocClCuDm+1x54/yYuW5FbfbwUjMLPfVmW1FNleFzPy7csm/CtUClKPWEFRn2MsITMP3Atu0YPdvynOQw+XBV3OCmS2f3p3JudQQMp8hgozMq0v52Ep7YyktZgPeUJRzQLvMT0bv1GFf3XxjXNN3+s1aJlLVMQ8OJofNxDsNv8v5FJh25hHy5aBV1T+tAWcR3eTbfnYAemUnGV1QQ==|0|asyncPostBackControlIDs|||0|postBackControlIDs|||72|updatePanelIDs||tdnn$ctr911$FPFundPrice$UpdatePanel1,dnn_ctr911_FPFundPrice_UpdatePanel1|0|childUpdatePanelIDs|||71|panelsToRefreshIDs||dnn$ctr911$FPFundPrice$UpdatePanel1,dnn_ctr911_FPFundPrice_UpdatePanel1|2|asyncPostBackTimeout||90|44|pageTitle||Public
+Mutual Berhad > Home > UT Fund Prices|392|dataItem|$crm_BodySCRIPTS|
+<script src="/js/dnn.js?cdv=287" type="text/javascript"></script>
+<script src="/js/dnn.modalpopup.js?cdv=287" type="text/javascript"></script>
+<script src="/js/dnncore.js?cdv=287" type="text/javascript"></script>
+<script src="/Resources/Search/SearchSkinObjectPreview.js?cdv=287" type="text/javascript"></script>
+<script src="/js/dnn.servicesframework.js?cdv=287" type="text/javascript"></script>|869|dataItem|$crm_ClientDependencyHeadJs|
+<script src="/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=287" type="text/javascript"></script>
+<script src="/Resources/libraries/jQuery-UI/01_11_03/jquery-ui.js?cdv=287" type="text/javascript"></script>
+<link href="/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=287" type="text/css" rel="stylesheet" />
+<link href="/Portals/_default/admin.css?cdv=287" type="text/css" rel="stylesheet" />
+<link href="/Resources/Search/SearchSkinObjectPreview.css?cdv=287" type="text/css" rel="stylesheet" />
+<link href="/Portals/_default/skins/pmb/skin.css?cdv=287" type="text/css" rel="stylesheet" />
+<link href="/Portals/_default/skins/pmb/main.css?cdv=287" type="text/css" rel="stylesheet" />
+<link href="/Portals/_default/containers/pmb/container.css?cdv=287" type="text/css" rel="stylesheet" />
+<link href="/Portals/0/portal.css?cdv=287" type="text/css" rel="stylesheet" />|249|scriptStartupBlock|ScriptContentNoTags|Sys.Application.add_init(function() { $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"dnn_ctr911_FPFundPrice_UpdatePanel1","displayAfter":500,"dynamicLayout":true},
+null, null, $get("dnn_ctr911_FPFundPrice_UpdateProgress1")); }); |
